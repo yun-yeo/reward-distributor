@@ -1,6 +1,6 @@
 # Build & Install
 ```
-$ git clone https://github.com/terra-project/feegiver.git
+$ git clone https://github.com/terra-project/santa.git
 $ git checkout master
 ```
 
@@ -10,16 +10,16 @@ $ make install
 ```
 ## make config
 ```
-$ feegiver config
+$ santa config
 ```
 ## change config
 ```
-$ vim ~/.feegiver/config.yaml
+$ vim ~/.santa/config.yaml
 ```
 
 ## Add Key
 ```
-$ feegiver keys add yun                        
+$ santa keys add yun                        
 Enter a passphrase to encrypt your key to disk:
 Repeat the passphrase:
 {"name":"yun","type":"local","address":"terra1a26sc2vqs20hfx239kejhd88v6cl87yfswvk0t","pubkey":"terrapub1addwnpepqwspkmsl724h9azfvgqgs8jkyuyyr3d6eme432afvlvulk3al0mwwnxwlxv","mnemonic":"decade urge pond sustain unit film milk sunny wash accuse profit staff what black problem treat velvet metal leg review math history juice soccer"}
@@ -27,7 +27,7 @@ Repeat the passphrase:
 
 ## Recover Key
 ```
-$ feegiver keys add yun --recover
+$ santa keys add yun --recover
 Enter a passphrase to encrypt your key to disk:
 Repeat the passphrase:
 > Enter your bip39 mnemonic
@@ -38,7 +38,7 @@ theory fat merge under hungry utility toss much trend turkey degree glare bread 
 
 ## Add Key with Old HD Path
 ```
-$ feegiver keys add yun --recover --old-hd-path 
+$ santa keys add yun --recover --old-hd-path 
 Enter a passphrase to encrypt your key to disk:
 Repeat the passphrase:
 > Enter your bip39 mnemonic 
@@ -49,6 +49,6 @@ flash until glimpse chase cradle adjust brick view uncover analyst test pact spo
 
 ## Start Server
 ```
-$ feegiver start yun              
+$ santa start yun              
 Enter the passphrase:
 ```
